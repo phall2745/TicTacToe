@@ -75,20 +75,7 @@ namespace Program
 
 		}
 
-		public char ChangeTurn(char player)
-		{
-
-			if (player == 'X')
-			{
-				return 'O';
-			}
-			else
-			{
-				return 'X';
-			}
-
-		}
-
+		
 	}
 
 	public class TicTacToe
